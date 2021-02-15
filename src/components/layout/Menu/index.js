@@ -22,7 +22,7 @@ export default function Menu() {
                     {links.map((link, index) => {
                         return (
                             <li key={index}>
-                                <a href={link.url}>
+                                <a href={link.url} className={`menu`+index}>
                                     {link.text}
                                 </a>
                             </li>

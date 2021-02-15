@@ -43,6 +43,10 @@ export const MenuWrapper = styled.nav`
         }
     }
 
+    a.menu1 {
+        padding: .85em 1.9em; 
+    }
+
     @media (min-width: 554px) {
          li {
             display: inline-block;
