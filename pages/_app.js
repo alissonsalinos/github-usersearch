@@ -32,6 +32,15 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>GitHub UserSearch</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand" rel="stylesheet" />
+        <meta property="og:url" content="https://github-usersearch.alissonsalinos.vercel.app" />
+        <meta property="og:title" content="GitHub UserSearch" />
+        <meta property="og:site_name" content="GitHub UserSearch" />
+        <meta property="og:description" content="A React NextJS App to search github developers all around the world." />
+        <meta property="og:image" content="https://github-usersearch.alissonsalinos.vercel.app/opengraph.jpg" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="709" />
+        <meta property="og:type" content="website" />
       </Head>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
