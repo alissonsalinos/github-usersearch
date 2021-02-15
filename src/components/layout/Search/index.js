@@ -128,7 +128,7 @@ export default function Search() {
     return (
         <>
         <SearchWrapper>
-            <input type="text" id="search" placeholder="Enter GitHub Username" onChange={(e) => setSearchValue(e.target.value)} />
+            <input type="text" id="search" placeholder="Enter a GitHub Username" onChange={(e) => setSearchValue(e.target.value)} />
             <button id="btn_search" onClick={search}>Search Now</button>
             <small style={{display:'block', width: '100%'}}>Ex: alissonsalinos</small>
         </SearchWrapper>
