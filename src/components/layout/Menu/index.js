@@ -10,7 +10,7 @@ export default function Menu() {
             url: "./"
         },
         {
-            text: "Your history search",
+            text: "Your search history",
             url: "/history"
         }
     ]
