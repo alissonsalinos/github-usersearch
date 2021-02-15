@@ -13,16 +13,15 @@ export const SearchWrapper = styled.div`
     animation-delay: 1200ms;
     justify-content: center;
 
-    input, button,
-    input:-internal-autofill-selected {
+    input, button {
         font-family: 'Quicksand', sans-serif;
-        font-size: .9rem;
+        font-size: .9em;
         padding: 5px;
     }
 
     small {
         width: 100%;
-        padding-left: 12%;
+        padding-left: 102px;
         font-size: .7em;
     }
 
@@ -95,6 +94,12 @@ export const SearchWrapper = styled.div`
     @media (max-width: 322px) {
         input#search {
             width: 112px!important;
+        }
+    }
+
+    @media (max-width: 866px) {
+        small {
+            padding-left: 12%;
         }
     }
 
