@@ -31,6 +31,7 @@ export const SearchWrapper = styled.div`
         border-radius: 290486px;
         box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2); color: #9013fe;
         display: inline-block;
+        background: white;
         line-height: 1;
         padding: .85em 1em;
         text-shadow: none;
@@ -51,7 +52,7 @@ export const SearchWrapper = styled.div`
         }
     }
 
-    input, input:-internal-autofill-selected {
+    input#search {
         background-color: transparent;
         border-top: 0;
         border-bottom: 1px solid #ffffff;
