@@ -32,15 +32,15 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>GitHub UserSearch</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand" rel="stylesheet" />
-        <meta property="og:url" content="https://github-usersearch.alissonsalinos.vercel.app" />
-        <meta property="og:title" content="GitHub UserSearch" />
-        <meta property="og:site_name" content="GitHub UserSearch" />
-        <meta property="og:description" content="A React NextJS App to search github developers all around the world." />
-        <meta property="og:image" content="https://github-usersearch.alissonsalinos.vercel.app/opengraph.jpg" />
-        <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="709" />
-        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://github-usersearch.alissonsalinos.vercel.app" key="ogurl" />
+        <meta property="og:title" content="GitHub UserSearch" key="ogtitle" />
+        <meta property="og:site_name" content="GitHub UserSearch" key="ogsitename" />
+        <meta property="og:description" content="A React NextJS App to search github developers all around the world." key="ogdescription"/>
+        <meta property="og:image" content="https://github-usersearch.alissonsalinos.vercel.app/opengraph.jpg" key="ogimage" />
+        <meta property="og:image:type" content="image/jpeg" key="ogimagetype" />
+        <meta property="og:image:width" content="1200" key="ogimagewidth"/>
+        <meta property="og:image:height" content="709" key="ogimageheight" />
+        <meta property="og:type" content="website" key="ogtype" />
       </Head>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
