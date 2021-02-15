@@ -12,7 +12,7 @@ export const HistoryWrapper = styled.div`
         animation-timing-function: cubic-bezier(0, 0.5, 0, 1); 
         animation-fill-mode: both;
         animation-name: slideUp;
-        animation-delay: 300ms;
+        animation-delay: 1200ms;
 
     .history__title {
         display:block;
