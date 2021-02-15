@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import Background from '../src/components/layout/Background';
-import Container from '../src/components/layout/Container';
+import ContainerHistory from '../src/components/layout/ContainerHistory';
 import Footer from '../src/components/layout/Footer';
 
 const Title = styled.h1`
@@ -8,11 +8,11 @@ const Title = styled.h1`
   color: ${({ theme }) => theme.colors.primary};
 `
 
-export default function Home() {
+export default function History() {
   return (
   <>
       <Background />
-      <Container />
+      <ContainerHistory />
       <Footer />
   </>
   )
