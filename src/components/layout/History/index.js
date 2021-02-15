@@ -28,7 +28,7 @@ export default function History() {
     return (
             <HistoryWrapper>
                 <div className="history__title">
-                    <h2>Last usernames searched</h2>
+                    <h2>Last searched usernames</h2>
                 </div>    
                 <div id="history__data"></div>
             </HistoryWrapper>
